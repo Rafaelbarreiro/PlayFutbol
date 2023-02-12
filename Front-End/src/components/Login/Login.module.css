@@ -1,0 +1,134 @@
+.container {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  .container img {
+    width: 40px;
+    border-radius: 50px;
+    float: right;
+    margin-left: 15px;
+    margin-top: -5px;
+  }
+  .container h2 {
+    font-size: 14px;
+    position: relative;
+    top: 5px;
+  }
+  .logoutAndProfile {
+    display: flex;
+  }
+  .logoutAndProfile button {
+    background-color: transparent;
+    height: 30px;
+    color: #2bfab7;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-left: 30px;
+  }
+  .logoutAndProfile button:hover {
+    color: #fff;
+    transition: 0.15s ease-in-out;
+  }
+  
+  .loginBtn {
+    background: transparent;
+    height: 30px;
+    color: black;
+    font-size: 16px;
+    padding-top: 2px;
+    font-weight: 500;
+  }
+  .containerLog{
+    width: 80px;
+    height: 40px;
+    background: red;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 400%;
+  }
+  
+  @keyframes animate {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 400%;
+    }
+    }
+    
+  .inner {
+    width: 76px;
+    height: 37px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loginBtn:hover {
+    color: red;
+    transition: 0.15s ease-in-out;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .container {
+      flex-direction: column-reverse;
+      height: 150px;
+      margin-top: 0px;
+      overflow: hidden;
+      align-items: center;
+    }
+    .container h2 {
+      font-size: 12px;
+      overflow: hidden;
+      top: 0px;
+    }
+    .container img {
+      height: fit-content;
+      width: 60px;
+      float: none;
+      margin-left: 0px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .loginBtn {
+      background-color: transparent;
+      height: 30px;
+      color: black;
+      border: none;
+      font-size: 16px;
+      margin-left: 0px;
+    }
+  
+    .logoutAndProfile {
+      display: flex;
+      flex-direction: column;
+    }
+    .logoutAndProfile button {
+      border: none;
+      background-color: transparent;
+      height: 30px;
+      color: black;
+      font-size: 14px;
+      margin-left: 0px;
+    }
+  
+    .logoutAndProfile button:hover {
+      background-color: transparent;
+      border: none;
+      color: #fff;
+    }
+  
+    .loginBtn:hover {
+      background-color: transparent;
+      border: none;
+      color: #fff;
+    }
+  }
+  

@@ -1,0 +1,23 @@
+.navBar {
+    grid-area: navBar;
+  }
+.header {
+    grid-area: header;
+    width: 90%;
+}
+.img {
+    grid-area: img;
+}
+.about {
+    grid-area: about;
+    width: 70%;
+}
+.contact {
+    grid-area: contact;
+    background-color: red;
+    width: 70%;
+}
+
+.textHeader {
+    width: 80%;
+}
