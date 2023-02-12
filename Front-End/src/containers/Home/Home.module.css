@@ -1,0 +1,10 @@
+.gridContainer{
+    padding-top:11vh;
+}
+
+@media screen and (max-width: 500px){
+
+.gridContainer{
+    padding-top: 0px
+}
+    }

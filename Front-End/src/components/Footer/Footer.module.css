@@ -1,0 +1,74 @@
+.main{
+    height: 45vh;
+    background-color: red;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 20px;
+    justify-items: center;
+    color: #FFF;
+    align-items: center;
+}
+.icon{
+    width: 1px;
+    height: 1px;
+    background-color: red;
+}
+
+.logo{
+    width: 120px;
+    height: 120px;
+    padding: 5px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    margin-bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+.redesFooter{
+    margin-top: 20px;
+}
+
+.link{
+    color: #Fff;
+}
+
+@media screen and (max-width: 500px){
+.main{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: rgb(255, 255, 255);
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+}
+p{
+    margin-bottom: 0;
+}
+.middle{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    padding: 15px;
+    padding-top: 0px;
+}
+
+
+
+}
