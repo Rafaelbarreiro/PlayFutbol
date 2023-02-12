@@ -1,0 +1,16 @@
+{
+    "users": [
+        {
+            "nicnakme": "rafa",
+            "email": "rafael@gmail"
+        },
+        {
+            "name": "juan",
+            "email": "juan@gmail"
+        },
+        {
+            "name": "pedro",
+            "email": "pedro@gmail"
+        }
+    ]
+}

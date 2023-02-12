@@ -28,10 +28,10 @@ module.exports = (sequelize) => {
       type: DataTypes.STRING,
       defaultValue: "false",
     },
-    status: {
+  /*   status: {
       type: DataTypes.ENUM('active', 'inactive', 'banned', 'deleted'),
       defaultValue: "active",
-    },
+    }, */
     isAdmin: {
       type: DataTypes.STRING,
       defaultValue: "false",
