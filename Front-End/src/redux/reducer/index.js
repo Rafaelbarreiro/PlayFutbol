@@ -1,6 +1,5 @@
 import {
   POST_USER,
-  LOGOUT_USER,
   GET_USER,
   GET_USERS
 } from "../actions/actionName"
@@ -32,12 +31,7 @@ case GET_USERS: {
     users: action.payload,
   };
 }
-case LOGOUT_USER: {
-  return {
-    ...state,
-    user: {},
-  };
-}
+
 
         
     

@@ -30,15 +30,7 @@ export const Profile = () => {
       <div className={s.container}>
         <h2>{user.name}</h2>
         <img src={user.picture} alt={user.name} />
-        {users.isAdmin=="false"?(
-          <Link className={s.Link} to="dashboard">
-          <div className={s.DashBoardButton}>
-            <button>Dashboard</button>
-          </div>
-        </Link>
-        ):(
-          ""
-        )}
+        
       </div>
     )
   );

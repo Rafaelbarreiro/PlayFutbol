@@ -2,13 +2,12 @@ import axios from "axios";
 
 import {
     POST_USER,
-    LOGOUT_USER,
     GET_USER,
     GET_USERS
 } from "../actions/actionName"
 
 const URL = "http://localhost:3001";
-//const URL = "https://fundacionfedehback-production.up.railway.app"
+
 
 export async function populateDB() {
     await axios.get(`${URL}/populateDB`);
@@ -37,7 +36,3 @@ export function getUsers() {
       return dispatch({ type: GET_USERS, payload: res.data });
     };
 }
-  
-export const logoutUser = () => dispatch => {
-    return dispatch({ type: LOGOUT_USER });
-};
