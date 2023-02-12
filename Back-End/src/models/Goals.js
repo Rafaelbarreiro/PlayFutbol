@@ -2,9 +2,9 @@ const { DataTypes } = require('sequelize');
 
 module.exports = (sequelize) => {
 
-  sequelize.define('golas', {
+  sequelize.define('goals', {
     name: {
-      type: DataTypes.integer,
+      type: DataTypes.INTEGER,
       allowNull: false
     },
   }, {

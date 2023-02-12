@@ -14,7 +14,7 @@ const router = Router();
 router.use("/users", users);
 router.use("/populateDB", populate);
 router.use("/email", email);
-router.use("/group")
+router.use("/group", group)
 
 module.exports = router;
 

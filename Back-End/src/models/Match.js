@@ -7,7 +7,15 @@ module.exports = (sequelize) => {
         type: DataTypes.DATE,
         allowNull: false
       },
+      goalCreator: {
+        type: DataTypes.INTEGER,
+        default: 0
+      },
+      goalRival: {
+        type: DataTypes.INTEGER,
+        default: 0
+      }
     }, {
-      timestamps: false
+      timestamps: true
     });
   };
